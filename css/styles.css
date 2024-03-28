@@ -190,6 +190,20 @@ section {
   width: calc((100% - 48px) / 3);
 }
 
+.advantages-icon-back {
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  padding: 24px 100px 24px 100px;
+  margin-bottom: 8px;
+}
+
+.advantages-icon {
+  display: block;
+}
+
 .advantages-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -234,7 +248,7 @@ section {
 
 .team-member-details {
   text-align: center;
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .team-member-name {
@@ -252,8 +266,14 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 /*  --------------Portfolio ------------------ */
 
 .portfolio-title {
@@ -367,5 +387,5 @@ section {
   background-color: #4d5ae5;
 }
 .icon {
-  color: #fff;
+  fill: #fff;
 }
