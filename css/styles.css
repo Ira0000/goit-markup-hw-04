@@ -306,6 +306,15 @@ section {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+  gap: 120px;
+}
+
+.footer-first-wrapper {
+  /* display: inline-block; */
+}
+
 .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -328,4 +337,35 @@ section {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+.socials-wrapper {
+}
+.socials-title {
+  max-width: 208px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.socials-list {
+  display: flex;
+  gap: 16px;
+  max-width: 208px;
+}
+.socials-item {
+}
+.socials-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.icon {
+  color: #fff;
 }
