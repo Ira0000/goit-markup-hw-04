@@ -89,8 +89,6 @@ section {
 /*  -------------Navigation list  -----------------*/
 .header-menu {
   display: flex;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
   gap: 40px;
 }
 
@@ -138,12 +136,21 @@ section {
 /*  -----------------Main Content  -------------------*/
 /*  -----------Motto section and button  -------------*/
 
-.order {
+.hero {
   background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url('../images/hero-background.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
   padding: 188px 0;
 }
 
-.order-title {
+.hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
@@ -154,7 +161,7 @@ section {
   margin-bottom: 48px;
 }
 
-.order-button {
+.hero-button {
   font-family: 'Roboto', sans-serif;
   border: none;
   background-color: #4d5ae5;
@@ -172,8 +179,8 @@ section {
   border-radius: 4px;
 }
 
-.order-button:hover,
-.order-button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background: #404bbf;
 }
 
