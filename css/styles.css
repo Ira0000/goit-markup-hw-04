@@ -94,7 +94,7 @@ section {
   gap: 40px;
 }
 
-.header-menu-item .header-menu-link {
+.header-menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -112,14 +112,15 @@ section {
 
 .header-menu-item .current {
   position: relative;
-  color: #404bbf;
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  color: #404bbf;
 }
 
-.header-menu-item .current:active::after {
+.header-menu-item .current::after {
   position: absolute;
+  color: #404bbf;
   content: '';
   width: 100%;
   left: 0;
